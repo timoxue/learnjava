@@ -1,0 +1,9 @@
+package com.timothy.chapter1.t4_threadsafe;
+
+public class ALogin extends Thread {
+	@Override
+	public void run( ) {
+		LoginServlet.doPost("a", "aa");
+	}
+
+}
